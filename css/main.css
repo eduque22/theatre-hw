@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(./Roboto\ Black.ttf);
+}
+
+body {
+    background-color: white;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_bar {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    border-bottom: 2px solid maroon;
+    padding: 7px;
+    margin-top: -8px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-size: 18pt;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+.nav_bar a {
+    text-decoration: none;
+    color: oldlace;
+}
+
+.upcoming1 img {
+    width: 200px;
+    height: 150px;
+}
+
+.show1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.hrstyled {
+    border: 1px solid;
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.container1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/theatre_img/balbbanner.jpeg);
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -24px;
+
+}
+
+
+.info p {
+    margin-left: 5px;
+}
+
+body button {
+    /* display: flex;
+    flex-direction: column; */
+    background-color: #EBB318;
+    color: white;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    border: none;
+    
+}
+
+/* .button a {
+    text-decoration: none;
+    color: white;
+} */
+
+
+.container2 {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.column {
+    flex: 33.33%;
+    height: 400px;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+.date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map {
+    width: 350px;
+    height: 240px;
+}
+
+.column a {
+    text-decoration: none;
+    color: white;
+}
+
+body a:hover {
+    color: powderblue;
+}
+
+#upcoming {
+    color: black;
+}
+
+.banner {
+    background-size: cover;
+}
+
+div h1 {
+    color: white;
+}
+
+.upcoming1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px
+}
